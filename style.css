@@ -354,6 +354,15 @@ main {
 }
 
 /* تنسيقات قسم المشاريع */
+.project-link {
+    display: block;
+    overflow: hidden;
+}
+
+.project-link:hover .project-img {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
 .projects-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
